@@ -1,5 +1,8 @@
 # LEENote
 ### 注释小插件
+
+![先看效果.gif](http://upload-images.jianshu.io/upload_images/2868618-689db1bbef13ee37.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 在Xcode8.0以上，xcode提供了`Xcode Source Editor Extension`来开发插件。
 ![Xcode Source Editor Extension.png](http://upload-images.jianshu.io/upload_images/2868618-0d040f186ff15219.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
