@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F7E9B051FCE508100508754 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7E9B041FCE508100508754 /* AppDelegate.swift */; };
+		3F7E9B071FCE508100508754 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7E9B061FCE508100508754 /* ViewController.swift */; };
+		3F7E9B091FCE508100508754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7E9B081FCE508100508754 /* Assets.xcassets */; };
+		3F7E9B0C1FCE508100508754 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7E9B0A1FCE508100508754 /* Main.storyboard */; };
+		3F7E9B1B1FCE50B600508754 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7E9B1A1FCE50B600508754 /* Cocoa.framework */; };
+		3F7E9B1E1FCE50B600508754 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7E9B1D1FCE50B600508754 /* SourceEditorExtension.swift */; };
+		3F7E9B201FCE50B600508754 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7E9B1F1FCE50B600508754 /* SourceEditorCommand.swift */; };
+		3F7E9B251FCE50B600508754 /* LeeNote.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3F7E9B181FCE50B600508754 /* LeeNote.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F7E9B231FCE50B600508754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F7E9AF91FCE508100508754 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7E9B171FCE50B600508754;
+			remoteInfo = LeeNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F7E9B291FCE50B600508754 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3F7E9B251FCE50B600508754 /* LeeNote.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F7E9B011FCE508100508754 /* LEENote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEENote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7E9B041FCE508100508754 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F7E9B061FCE508100508754 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F7E9B081FCE508100508754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F7E9B0B1FCE508100508754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F7E9B0D1FCE508100508754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7E9B0E1FCE508100508754 /* LEENote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LEENote.entitlements; sourceTree = "<group>"; };
+		3F7E9B181FCE50B600508754 /* LeeNote.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LeeNote.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7E9B1A1FCE50B600508754 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3F7E9B1D1FCE50B600508754 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		3F7E9B1F1FCE50B600508754 /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		3F7E9B211FCE50B600508754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7E9B221FCE50B600508754 /* LeeNote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LeeNote.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F7E9AFE1FCE508100508754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7E9B151FCE50B600508754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7E9B1B1FCE50B600508754 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F7E9AF81FCE508100508754 = {
+			isa = PBXGroup;
+			children = (
+				3F7E9B031FCE508100508754 /* LEENote */,
+				3F7E9B1C1FCE50B600508754 /* LeeNote */,
+				3F7E9B191FCE50B600508754 /* Frameworks */,
+				3F7E9B021FCE508100508754 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F7E9B021FCE508100508754 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F7E9B011FCE508100508754 /* LEENote.app */,
+				3F7E9B181FCE50B600508754 /* LeeNote.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F7E9B031FCE508100508754 /* LEENote */ = {
+			isa = PBXGroup;
+			children = (
+				3F7E9B041FCE508100508754 /* AppDelegate.swift */,
+				3F7E9B061FCE508100508754 /* ViewController.swift */,
+				3F7E9B081FCE508100508754 /* Assets.xcassets */,
+				3F7E9B0A1FCE508100508754 /* Main.storyboard */,
+				3F7E9B0D1FCE508100508754 /* Info.plist */,
+				3F7E9B0E1FCE508100508754 /* LEENote.entitlements */,
+			);
+			path = LEENote;
+			sourceTree = "<group>";
+		};
+		3F7E9B191FCE50B600508754 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F7E9B1A1FCE50B600508754 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F7E9B1C1FCE50B600508754 /* LeeNote */ = {
+			isa = PBXGroup;
+			children = (
+				3F7E9B1D1FCE50B600508754 /* SourceEditorExtension.swift */,
+				3F7E9B1F1FCE50B600508754 /* SourceEditorCommand.swift */,
+				3F7E9B211FCE50B600508754 /* Info.plist */,
+				3F7E9B221FCE50B600508754 /* LeeNote.entitlements */,
+			);
+			path = LeeNote;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F7E9B001FCE508100508754 /* LEENote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7E9B111FCE508100508754 /* Build configuration list for PBXNativeTarget "LEENote" */;
+			buildPhases = (
+				3F7E9AFD1FCE508100508754 /* Sources */,
+				3F7E9AFE1FCE508100508754 /* Frameworks */,
+				3F7E9AFF1FCE508100508754 /* Resources */,
+				3F7E9B291FCE50B600508754 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F7E9B241FCE50B600508754 /* PBXTargetDependency */,
+			);
+			name = LEENote;
+			productName = LEENote;
+			productReference = 3F7E9B011FCE508100508754 /* LEENote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F7E9B171FCE50B600508754 /* LeeNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7E9B261FCE50B600508754 /* Build configuration list for PBXNativeTarget "LeeNote" */;
+			buildPhases = (
+				3F7E9B141FCE50B600508754 /* Sources */,
+				3F7E9B151FCE50B600508754 /* Frameworks */,
+				3F7E9B161FCE50B600508754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeeNote;
+			productName = LeeNote;
+			productReference = 3F7E9B181FCE50B600508754 /* LeeNote.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F7E9AF91FCE508100508754 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = ljb48229;
+				TargetAttributes = {
+					3F7E9B001FCE508100508754 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					3F7E9B171FCE50B600508754 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3F7E9AFC1FCE508100508754 /* Build configuration list for PBXProject "LEENote" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F7E9AF81FCE508100508754;
+			productRefGroup = 3F7E9B021FCE508100508754 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F7E9B001FCE508100508754 /* LEENote */,
+				3F7E9B171FCE50B600508754 /* LeeNote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F7E9AFF1FCE508100508754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7E9B091FCE508100508754 /* Assets.xcassets in Resources */,
+				3F7E9B0C1FCE508100508754 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7E9B161FCE50B600508754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F7E9AFD1FCE508100508754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7E9B071FCE508100508754 /* ViewController.swift in Sources */,
+				3F7E9B051FCE508100508754 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7E9B141FCE50B600508754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7E9B1E1FCE50B600508754 /* SourceEditorExtension.swift in Sources */,
+				3F7E9B201FCE50B600508754 /* SourceEditorCommand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F7E9B241FCE50B600508754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F7E9B171FCE50B600508754 /* LeeNote */;
+			targetProxy = 3F7E9B231FCE50B600508754 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F7E9B0A1FCE508100508754 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7E9B0B1FCE508100508754 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F7E9B0F1FCE508100508754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F7E9B101FCE508100508754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		3F7E9B121FCE508100508754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LEENote/LEENote.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 47W28PSMV7;
+				INFOPLIST_FILE = LEENote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lijiangbo.LEENote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		3F7E9B131FCE508100508754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LEENote/LEENote.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 47W28PSMV7;
+				INFOPLIST_FILE = LEENote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lijiangbo.LEENote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		3F7E9B271FCE50B600508754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LeeNote/LeeNote.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 47W28PSMV7;
+				INFOPLIST_FILE = LeeNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lijiangbo.LEENote.LeeNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		3F7E9B281FCE50B600508754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LeeNote/LeeNote.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 47W28PSMV7;
+				INFOPLIST_FILE = LeeNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lijiangbo.LEENote.LeeNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F7E9AFC1FCE508100508754 /* Build configuration list for PBXProject "LEENote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7E9B0F1FCE508100508754 /* Debug */,
+				3F7E9B101FCE508100508754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7E9B111FCE508100508754 /* Build configuration list for PBXNativeTarget "LEENote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7E9B121FCE508100508754 /* Debug */,
+				3F7E9B131FCE508100508754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7E9B261FCE50B600508754 /* Build configuration list for PBXNativeTarget "LeeNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7E9B271FCE50B600508754 /* Debug */,
+				3F7E9B281FCE50B600508754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F7E9AF91FCE508100508754 /* Project object */;
+}
